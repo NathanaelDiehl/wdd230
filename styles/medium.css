@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em) {
+   header{
+      grid-template-columns: 1fr 1fr;
+      border-radius: 10px;
+   }
+
+   footer{
+      border-radius: 10px;
+   }
+   
+}
+
+
+
+
+
+
+
+
