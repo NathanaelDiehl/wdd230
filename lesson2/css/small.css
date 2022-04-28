@@ -1,5 +1,4 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
  /* layout */
  h1, h2, h3, h4 { font-family: 'Roboto', 'Open Sans', sans-serif; }
  p {font-family: 'Open Sans', sans-serif;}
@@ -11,9 +10,9 @@
   
   header{
     padding: 15px;
-    background-image: linear-gradient(to bottom right, #6b98fa, #003daf);
+    background-image: linear-gradient(to bottom right, #2e5db9, #234B9A);
     text-align: center;
-    color: #f7f7f3;
+    color: #ffffff;
   }
   
   main {
@@ -22,9 +21,9 @@
   
   footer{
     padding: 15px;
-    background-image: linear-gradient(to bottom right, #6b98fa, #003daf);
+    background-image: linear-gradient(to bottom right, #2e5db9, #234B9A);
     text-align: center;
-    color: #f7f7f3;
+    color: #ffffff;
   }
  
  /* grid */
@@ -45,12 +44,12 @@
    border: 1px solid rgb(61, 61, 61);
    border-radius: 10px;
    overflow: hidden;
-   background-image:linear-gradient(to bottom right, #dadada, #9fa0a1);
+   background-image:linear-gradient(to bottom right, #dadada, #d8d8d8);
  }
  
  .section-header {
-   background-color: #4658a8;
-   color: #d2d2e4;
+   background-color: #234B9A;
+   color: #ffffff;
    padding: 5px;
  }
  
