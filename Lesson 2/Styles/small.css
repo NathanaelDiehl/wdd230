@@ -1,0 +1,13 @@
+@media(max-width: 600px) {
+   .grid {
+     grid-template-columns: 1fr;
+   }
+ 
+  
+   .col:nth-last-child(-n+1) {
+      grid-column: span 1;
+    }
+ }
+ 
+
+

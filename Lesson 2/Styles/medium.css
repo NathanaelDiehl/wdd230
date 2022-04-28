@@ -1,0 +1,17 @@
+@media(min-width: 601px) and (max-width: 940px) {
+   .grid {
+     grid-template-columns: repeat(2, 1fr)
+   }
+ 
+   .col:nth-last-child(-n+1) {
+      grid-column: span 2;
+    }
+ }
+
+
+
+
+
+
+
+
