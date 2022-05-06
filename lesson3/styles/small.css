@@ -32,6 +32,8 @@ main{
 
 .nav-logo{
    max-width:200px;
+   width: 100%;
+   height: auto;
 }
 
 nav{
@@ -64,6 +66,8 @@ nav ul li a {
 
 .content-logo{
    max-width: 400px;
+   width: 100%;
+   height: auto;
    display: block;
   margin-left: auto;
   margin-right: auto;
@@ -71,6 +75,8 @@ nav ul li a {
 
 .persona-img{
    max-width: 250px;
+   width: 100%;
+   height: auto;
 }
 
 
