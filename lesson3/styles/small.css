@@ -1,7 +1,6 @@
 
 
 h1, h2, h3, h4 { font-family: 'Roboto', 'Open Sans', sans-serif; }
-p, li, tr {font-family: 'Open Sans', sans-serif;}
 .content {
    max-width: 960px;
    margin: 0 auto;
@@ -12,10 +11,11 @@ p, li, tr {font-family: 'Open Sans', sans-serif;}
 body{
    background-color:#e1e4e8;
    margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
 }
 
 
-header, footer {
+header{
    background-color:white;
    display: flex;
    flex-flow: column;
@@ -83,10 +83,13 @@ nav ul li a {
 footer {
    background-color:#264E82;
    color: white;
+   padding: 10px;
+   margin: 0 auto;
+   text-align: center;
 }
 
 
-/* Color Scheme css  */
+/*--------------Color Scheme css-----------------  */
 
 .primary {
    background-color: #2E86AB;
@@ -130,7 +133,7 @@ footer {
     padding: 10px;
  }
 
- /* typography css */
+ /*----------------typography css----------------------- */
 
  .open-sans-font{
    font-family: 'Open Sans', sans-serif;

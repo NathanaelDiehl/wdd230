@@ -1,0 +1,104 @@
+
+@media only screen and (min-width: 515px) {
+
+
+   .header-logo-title h1 {
+      font-size: 2em;
+   }
+   
+   .nav-logo{
+      max-width:150px;
+   }
+
+   /* ----------------main---------------------- */
+
+   main{
+      grid-template-columns: 1fr 1fr;
+      column-gap: 5px;
+   }
+  
+   .hero{
+      grid-column: 1/-1;
+   }
+
+   .new-release{
+      grid-area: 2 / 1 / 2 /-1;
+   }
+
+   .spotlight{
+      grid-area: 3 / 1 / 3 / -1;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 5px;
+   }
+   .join{
+      display: block;
+      grid-area: 4 / 1 / 4 / -1;
+   }
+   
+
+   /* -------------footer---------------- */
+   .top-footer{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1em;
+   }
+
+.footer-logo-title{
+   flex-direction: row;
+   align-items: center;
+   column-gap: 15px;
+   text-align: left;
+}
+
+.footer-title-section{
+   grid-column: 2;
+   margin: 0;
+}
+
+.footer-info{
+   /* justify-self: end; */
+   padding-right: 40px;
+   align-self: center;
+}
+
+.layout-footer-small{
+   display: none;
+}
+
+.base-footer{
+   text-align: center;
+}
+
+.layout-footer{
+   flex-direction: row;
+}
+
+.layout-footer .bar {
+   display: block;
+}
+
+.footer-logo{
+   max-width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+   
+
