@@ -175,7 +175,7 @@ footer{
    list-style-type: none;
    display: flex;
    flex-wrap: wrap;
-   align-items: middle;
+   align-items: center;
    justify-content:center;
    flex-direction: column;;
 }
