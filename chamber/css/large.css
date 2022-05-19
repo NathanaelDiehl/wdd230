@@ -40,6 +40,7 @@
    main{
       grid-template-columns: repeat(4 , 1fr);
       justify-items: stretch;
+      padding: 1em 4em 1em 4em;
    }
   
    .hero{
@@ -54,6 +55,7 @@
    .spotlight{
       grid-area: 1 / 4 / 4 / 4;
       grid-template-columns: 1fr;
+      align-self: stretch;
    }
    .join{
       display: block;
