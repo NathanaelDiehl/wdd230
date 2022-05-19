@@ -34,6 +34,31 @@ hr{
    place-self: center;
 }
 
+ul{
+   list-style-type: none;
+}
+
+li{
+   font-size: 1.40em;
+   padding: 6px;
+   
+}
+
+li a{
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #212175;
+   color: #ffd000;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 10px black;
+}
+
+a:hover{
+   background-color: #ffd000;
+   color: #212175;
+}
+
 
 footer{
    max-width: 700px;
