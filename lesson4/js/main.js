@@ -3,6 +3,14 @@ const input = document.querySelector('input');
 const button = document.querySelector('button')
 const list = document.querySelector('ul');
 
+function success() {
+   if(document.getElementById("textsend").value==="") { 
+           document.getElementById('button').disabled = true; 
+       } else { 
+           document.getElementById('button').disabled = false;
+       }
+   }
+
 
 button.addEventListener('click', () => {
    const newItem = input.value;
@@ -23,4 +31,5 @@ button.addEventListener('click', () => {
    });
 
    input.focus();
+   document.getElementById('button').disabled = true;
 });
