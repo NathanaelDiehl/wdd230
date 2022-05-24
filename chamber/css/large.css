@@ -62,12 +62,19 @@
       grid-area: 3 / 1 / 3 / 1;
    }
    
+   .event-weather-combo{
+      grid-template-columns: 1fr;
+      grid-area: 1/1/3/1;
+      align-self: stretch;
+   }
+
    .event{
       grid-area: 1/1/1/1;
    }
    
    .weather {
       grid-area: 2/1/2/1;
+      width: 100%;
    }
 
    .spotlight-3{

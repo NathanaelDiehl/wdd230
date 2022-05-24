@@ -199,31 +199,22 @@ main nav p{
    
 }
 
+.event-weather-combo{
+   display: grid;
+   grid-template-columns: 1fr;
+   row-gap: 10px;
+   column-gap: 10px;
+}
+
 .event p{
    align-self: center;
 }
 
-.join{
-   display: none;
-   padding-top: 20px;
-}
 
-.join-button {
-   display: block;
-   width: 100%;
-   padding: 10px;
-   background-color:#2E86AB;
-   color: #fff;
-   border-radius: 10px;
-   border: 1px solid white;
-   box-shadow: 2px 2px 8px #353535;
-   cursor: pointer;
-
-
-}
 .weather{
-   /* width:fit-content; */
+   width:fit-content;
    padding-bottom: 10px;
+   justify-self: center;
   
 }
 
@@ -257,8 +248,23 @@ main nav p{
    
 }
 
-.spotlight-img{
-   width: 100px;
+.join{
+   display: none;
+   padding-top: 20px;
+}
+
+.join-button {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color:#2E86AB;
+   color: #fff;
+   border-radius: 10px;
+   border: 1px solid white;
+   box-shadow: 2px 2px 8px #353535;
+   cursor: pointer;
+
+
 }
 
 .spotlight-3{

@@ -33,6 +33,19 @@
       border-radius: 10px;
    }
 
+   .event-weather-combo{
+      grid-area: 5 / 1 / 5 / -1;
+      grid-template-columns: 1fr 227px;
+   }
+
+   .weather{
+      justify-self: right;
+   }
+
+   .event{
+      justify-self: stretch;
+   }
+
    .new-release{
       grid-area: 2 / 1 / 2 /-1;
    }
@@ -92,23 +105,6 @@
 .footer-logo{
    max-width: 150px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
    }
