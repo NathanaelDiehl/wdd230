@@ -12,7 +12,7 @@
 
    /* ----------------main---------------------- */
 
-   main{
+   .main-content{
       grid-template-columns: 1fr 1fr;
    }
   
@@ -107,6 +107,39 @@
 }
 
 
+/* -----------------Discover.html------------------- */
+
+
+.discover-main{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   row-gap: 1em;
+   padding: 2em;
+   
+}
+
+
+.image-column{
+   display: grid;
+   grid-template-columns: 400px;
+   row-gap: 60px;
+   padding: 10px 20px 85px 20px;
+}
+
+
+.discover-img:hover{
+   box-shadow: 1px 1px 12px #353535;
+}
+
+.last-visited h3, .last-visited h4{
+   margin: 0;
+}
+
+.last-visited.last-visited{
+   padding: 2em 1em 2em 1em;
+}
+
    }
    
-
+  
