@@ -140,6 +140,29 @@
    padding: 2em 1em 2em 1em;
 }
 
+
+/* -----------------join.html------------------- */
+
+.join-main-content{
+   display: flex;
+   justify-content: space-between;  
+   flex-flow: wrap;
+   padding: 0 2% 2rem 2%;
+}
+
+.membership-information{
+   display: block;
+   max-width: 220px;
+   padding: 10px;
+}
+
+form{
+   width: 60%;
+   justify-items: center;
+}
+
+
+
    }
    
   

@@ -33,10 +33,11 @@
           <h1>Idaho Falls Chamber</h1>
         </div>
         <nav id="navigation" class="navigation">
-          <ul>
+          <ul class="discover-ul">
             <li id="close-button" class="nav-item">
               Close <span>&#x2715;</span>
             </li>
+            <li><a href="index.html" class="nav-item">Home</a></li>
             <li><a href="discover.html" class="nav-item">Discover</a></li>
             <li><a href="#" class="nav-item">Directory</a></li>
             <li><a href="join.html" class="nav-item">Join</a></li>
@@ -71,102 +72,51 @@
     </header>
 
     <main>
-      <div class="main-content">
-      <div class="hero main-item">
-        <h2>Welcome to Idaho Falls Chamber</h2>
-        <picture>
-          <source media="(max-width:515px)" srcset="images/idahofalls500.jpg">
-          <source media="(max-width:750px )" srcset="images/idahofalls750.jpg">
-          <source media="(max-width:1000px )" srcset="images/idahofalls1000.jpg">
-          <img
-            src="images/idahofalls850.jpg"
-            alt="picture of Idaho Falls from the Air"
-          />
-        </picture>
-        <button class="hero-button">Join the Chamber</button>
+      <div class="join-main-content">
+         <form method="get" action="thankyou.html">
+            <fieldset>
+               <legend>New Member Info</legend>
+               <label class="top"> First Name* <input type="text" name="fname" required> </label>
+               <label class="top"> Last Name* <input type="text" name="lname" required> </label>
+               <label class="top"> Title <input type="text" name="title"> </label>
+               <label class="top"> Email* <input type="email" name="email" required> </label>
+               <label class="top"> Phone* <input type="tel" name="phone" required> </label>
+               <label class="top"> Business Name* <input type="text" name="business" required> </label>
+            </fieldset>
+            <fieldset>
+               <legend>Membership Level</legend>
+               <div>Pick a Level</div>
+               <label class="rad"><input type="radio" name="membership" value="NP Membership">NP Membership </label>
+               <label class="rad"><input type="radio" name="membership" value="Bronze Membership.">Bronze Membership.</label>
+               <label class="rad"><input type="radio" name="membership" value="Silver Membership">Silver Membership</label>
+               <label class="rad"><input type="radio" name="membership" value="Gold Membership">Gold Membership </label>
+            </fieldset>
+            <fieldset>
+               <legend>Business Description</legend>
+               <label class="top">Describe Your Business Here: <textarea name="business info" placeholder="start typing here"></textarea></label>
+               
+               <input type="hidden"> <span id="user-date"></span>
+            
+            </fieldset>
+            <input type="submit" value = "Join IF Chamber" class="joinBtn">
+         </form>
+
+         <div class="membership-information">
+            <h2>Membership Details</h2>
+            <h3>NP membership</h3>
+            <p>Non-paying memberships are for organizations that are Non-profit and contains eligible benefits included in all three memberships upon filing a non-profit form after account has been made.</p>
+
+            <img src="images/bronze.png" alt="Bronze Icon">
+            <h3>Bronze Membership</h3>
+            <p>includes access to our monthly trainings and referal listings for both contractors and companies.</p>
+            <img src="images/silver.png" alt="silver Icon">
+            <h3>Silver Membership</h3>
+            <p>Includes benefits of Bronze plus access to our exclusive weekly meetings as well as access to our investments advisors and marketing statagists.</p>
+            <img src="images/gold.png" alt="gold Icon">
+            <h3>Gold Membership</h3>
+            <p>Inlcudes both Silver and Bronze benefits as well as exclusive access to onsite advertising, access to board meetings, and access to company stock shares at a discounted price.</p>
+         </div>
       </div>
-      <div class="join main-item">
-        <button class="join-button">Join Us!</button>
-        <p>
-          Discover how to join the chamber of commerce and how it will benefit
-          your organization!
-        </p>
-      </div>
-      <div class="event-weather-combo">
-        <div class="event main-item">
-          <h3>Walk for Wishes</h3>
-          <p>
-            Join us for the first ever Walk for Wishes to fundraise for the Make A
-            Wish organization at the Idaho Falls Community Center, Thursday at
-            12:00 pm.
-          </p>
-        </div>
-        
-        <div class="weather main-item">
-          <h3>Weather</h3>
-          <div class="weather-combo">
-            <img
-              class="weather-img"
-              src="images/partly_cloudy.png"
-              alt="partly sunny"
-            />
-            <h3><span id="degrees">68</span>&deg; F</h3>
-          </div>
-          <h4>Partly Cloudy</h4>
-          <hr />
-          <ul class="weather-info">
-            <li>Wind Speed:</li>
-            <li><span id="wind-speed">5</span> mph</li>
-            <li>Wind Chill:</li>
-            <li><span id="wind-chill"></span></li>
-          </ul>
-        </div>
-      </div>
-      <div class="new-release main-item">
-        <h3>News Release</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis
-          ipsam laboriosam pariatur odio accusamus praesentium laudantium
-          assumenda cupiditate obcaecati exercitationem aliquam modi voluptate
-          reprehenderit, fugit possimus odit dolores.
-        </p>
-        
-      </div>
-      <div class="spotlight main-item">
-        <div class="spotlight-1 main-item">
-          <h3>Local Help</h3>
-          <img
-            class="spotlight-img"
-            src="images/worker.png"
-            alt="Contractor Icon"
-          />
-          <p>"We can find you a man for anything"</p>
-          <hr />
-          <p>contact@localhelpforu.com</p>
-          <p>+999-9999-9999 | website</p>
-        </div>
-        <div class="spotlight-2 main-item">
-          <h3>CDL classes</h3>
-          <img class="spotlight-img" src="images/truck.png" alt="Truck Icon" />
-          <p>Evening classes to get a CDL license for trucking.</p>
-          <hr />
-          <p>class@eveningclasscdl.com</p>
-          <p>+999-9999-9999 | website</p>
-        </div>
-        <div class="spotlight-3 main-item">
-          <h3>Local plans</h3>
-          <img
-            class="spotlight-img"
-            src="images/building.png"
-            alt="Building icon"
-          />
-          <p>See what other locals are using for designs.</p>
-          <hr />
-          <p>info@localdesigns.com</p>
-          <p>+999-9999-9999 | website</p>
-        </div>
-      </div>
-    </div>
     </main>
 
     <footer>
@@ -211,6 +161,5 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>

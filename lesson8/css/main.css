@@ -1,0 +1,64 @@
+
+.table1 {
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 auto;
+   margin-top: 5em;
+   box-shadow: 8px 8px 12px #8999ac;
+}
+
+th, td {
+   padding: 10px;
+   text-align: center;
+ }
+
+table, th, td {
+   border: 1px solid #a8a8a8;
+   border-collapse: collapse;
+ }
+
+.title{
+   font-size: 1.65em;
+   background-color: #80d2f8;
+}
+
+.col-name{
+   background-color: #4d86ac;
+   font-size: 1.25em;
+   color: white;
+}
+
+tbody tr:nth-child(odd){
+   background-color: #D7E3FC;
+}
+
+tbody tr:nth-child(even){
+   background-color: #E2EAFC;
+}
+
+tfoot{
+   background-color: #80d2f8;
+   font-size: .75em;
+   font-weight: bold;
+}
+
+.black-friday td:first-child{
+   font-style: italic;
+}
+
+.goal-reached td:last-child{
+   background-color: #4d86ac;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

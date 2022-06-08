@@ -405,3 +405,84 @@ footer{
 
 
 
+/* -----------------join.html------------------- */
+
+.join-main-content{
+   /* display: flex; */
+   
+   
+}
+
+.membership-information{
+   display: none;
+}
+
+.membership-information h3, h2{
+   text-align: center;
+}
+
+form fieldset{
+   margin: 2rem 1rem;
+   border:1px solid #264E82;
+   border-radius: 10px;
+   padding: 0.5rem 2%;
+}
+
+form legend {
+   color:#264E82;
+   padding: 0 0.5rem;
+}
+
+form label.top, form div{
+   display: block;
+   padding-top: 1rem;
+}
+
+
+form label.top input {
+   display:block;
+   font-size: 1rem;
+   border: 1px solid grey;
+   border-radius: 4px;
+   padding: .75rem;
+   width: 100%;
+   max-width: 30rem;
+   background-color: #ececec;
+}
+
+form label.top textarea{
+   display:block;
+   font-size: 1rem;
+   border: 1px solid grey;
+   border-radius: 4px;
+   padding: .75rem;
+   width: 100%;
+   max-width: 40rem;
+   height: 15rem;
+   max-height: 40rem;
+   background-color: #ececec;
+}
+
+form label.rad{
+   display: block;
+   padding: 0.75rem;
+}
+
+form input.joinBtn{
+   border: none;
+   background-color: #264E82;
+   color: white;
+   border-radius: 1rem;
+   padding: .75rem 1.5rem;
+   margin: 0 0 2rem 2%;
+   width: 96%;
+   max-width: 30rem;
+}
+
+
+
+
+
+
+
+
