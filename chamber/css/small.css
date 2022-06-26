@@ -344,7 +344,7 @@ footer{
 }
 
 .statistic-data div{
-   /* border:1px solid #353535; */
+ 
    background-color: #E1E4E8;
    box-shadow: 1px 1px 8px #353535;
    padding: 1em;
@@ -407,17 +407,16 @@ footer{
 
 /* -----------------join.html------------------- */
 
-.join-main-content{
-   /* display: flex; */
+
    
    
-}
+
 
 .membership-information{
    display: none;
 }
 
-.membership-information h3, h2{
+.membership-information h3, .membership-information h2{
    text-align: center;
 }
 
@@ -439,6 +438,7 @@ form label.top, form div{
 }
 
 
+
 form label.top input {
    display:block;
    font-size: 1rem;
@@ -448,6 +448,8 @@ form label.top input {
    width: 100%;
    max-width: 30rem;
    background-color: #ececec;
+
+
 }
 
 form label.top textarea{
@@ -481,10 +483,6 @@ form input.joinBtn{
 }
 
 
-
-/* -----------------join.html------------------- */
-
-
 .thank-you-main-content{
 padding: 3rem 2% 3rem 2%;
 
@@ -505,6 +503,99 @@ padding: 3rem 2% 3rem 2%;
    cursor: pointer;
    
 }
+
+
+
+/* -----------------directory.html------------------- */
+
+.gl-menu{
+   justify-content: center;
+   display: flex;
+   column-gap: 1rem;
+   padding-top: 2rem;
+   
+   
+}
+
+#grid, #list{
+height: 80px;
+width: 200px;
+background-color: #264E82;
+color: #fff;
+border: 1px solid #ececec;
+font-size: 1.5rem;
+text-shadow: 3px 3px 8px black;
+}
+
+#grid:hover, #list:hover{
+   cursor: pointer;
+
+}
+
+
+.grid div{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   margin: 1em;
+   padding: 1em;
+   gap: 1em;
+}
+.grid div section {
+   margin: 0.25rem;
+   padding: 1rem;
+   background-color: #ececec;
+   border: 1px solid #353535;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ box-shadow: 0 0 15px #777;
+ }
+
+ .grid div section img {
+   display: block;
+   margin: 5px 0 10PX 0;
+ }
+
+.company-directory H4{
+   text-align: center;
+}
+
+.list div {
+   display: flex;
+	flex-direction: column;
+   padding: 1rem;
+   row-gap: 1rem ;
+  
+}
+
+.list div section {
+	display: flex;
+	/* align-items: center; */
+   /* min-height: 250px; */
+   flex-direction: column;
+   background-color: #ececec;
+   border: 1px solid #353535;
+   box-shadow: 0 0 15px #777;
+   padding: 1rem;
+   column-gap: 1rem;
+
+}
+
+.list div section img{
+   display: none;
+}
+
+.list div section h2, .list div section h4{
+   text-align: left;
+   margin: 5px;
+}
+
+
+
+
+
+
+
 
 
 

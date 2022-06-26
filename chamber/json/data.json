@@ -1,0 +1,97 @@
+{
+   "business": [
+      {
+         "name": "Idahoan Foods, LLC",
+         "address": "900 Pier View Drive Suite 100 Idaho Falls ID 83402",
+         "phonenumber": "(208) 542-3700",
+         "website": "https://idahoan.com/",
+         "order": 1,
+         "imageurl": "images/idahoan_foods.png"
+      },
+      {
+         "name": "Firehouse Subs",
+         "address": "433 S. Utah Ave. Idaho Falls ID 83402",
+         "phonenumber": "(208) 525-2665",
+         "website": "https://www.firehousesubs.com/",
+         "order": 2,
+         "imageurl": "images/fire_house_subs.png"
+      },
+      {
+         "name": "Home Depot",
+         "address": "2075 S. Holmes Avenue Idaho Falls ID 83404",
+         "phonenumber": "(208) 542-2520",
+         "website": "https://www.homedepot.com/",
+         "order": 3,
+         "imageurl": "images/home_depot.jpg"
+      },
+      {
+         "name": "Snake River Landing",
+         "address": "2194 Snake River Parkway Idaho Falls ID 83402",
+         "phonenumber": "(208) 557-5300",
+         "website": "https://www.snakeriverlanding.com/",
+         "order": 4,
+         "imageurl": "images/snake_river_landing.png"
+      },
+      {
+         "name": "Nelson Group Real Estate",
+         "address": "3525 Merlin Dr Idaho Falls Idaho 83404",
+         "phonenumber": "(208) 227-5346",
+         "website": "https://davenelsongroup.com/",
+         "order": 5,
+         "imageurl": "images/nelson_group.png"
+      },
+      {
+         "name": "Armory Plastics LLC",
+         "address": "4581 N. Haroldsen Drive Idaho Falls ID 83401",
+         "phonenumber": "(208) 524-2852",
+         "website": "https://www.armoryplastics.com/",
+         "order": 6,
+         "imageurl": "images/armory_plastics.png"
+      },
+      {
+         "name": "Teton Radiology Inc. of Idaho Falls",
+         "address": "2001 S. Woodruff Ave., Ste 17 Idaho Falls ID 83404",
+         "phonenumber": "(208) 524-7237",
+         "website": "https://tetonradiology.com/",
+         "order": 7,
+         "imageurl": "images/teton_radiology.png"
+      },
+      {
+         "name": "Big-D Construction",
+         "address": "925 S. Utah Ave. Idaho Falls ID 83402",
+         "phonenumber": "(208) 362-2125",
+         "website": "https://big-d.com/",
+         "order": 8,
+         "imageurl": "images/big_d_construction.jpg"
+      },
+      {
+         "name": "Idaho Falls Pediatrics",
+         "address": "3067 Eagle Drive Ammon ID 83406",
+         "phonenumber": "(208) 522-4600",
+         "website": "https://www.ifpeds.com/",
+         "order": 9,
+         "imageurl": "images/id_pediatrics.png"
+      }  
+      
+   ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
