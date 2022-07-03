@@ -193,5 +193,55 @@ form{
 
 }
 
+
+
+
+/* -----------------Contact.html------------------- */
+
+.info-section{
+   display:grid;
+   grid-template-columns: 1fr ;
+   margin-bottom: 3em;
+   row-gap: 1rem;
+   justify-items: center;
+}
+
+.contact-info{
+   align-self:end;
+   justify-self: center;
+   width: 100%;
+}
+
+
+.info-section img{
+   /* align-self: center; */
+   justify-self: center;
+}
+
+.grandMaster{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 4rem 0 4rem 0;
+   row-gap: 1rem;
+}
+
+.grandMaster img{
+   justify-self: center;
+   margin-right: 0rem;
+}
+
+.grandMaster-info{
+   margin-left: 0em;
+   align-self:start;
+   justify-self: center;
+   width: 100%;
+
+
+}
+
+
+
+
+
    
 }

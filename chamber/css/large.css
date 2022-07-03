@@ -112,17 +112,47 @@
 /* -----------------join.html------------------- */
 
 
-.join-main-content{
-   padding: 0 2% 2rem 10%;
+.info-section{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 3em;
 }
 
-
-form{
+.contact-info{
+   grid-column: 1;
+   grid-row: 1;
+   align-self:center;
+   justify-self: end;
    width: 70%;
-   /* justify-items: center; */
 }
 
 
+.info-section img{
+   grid-column: 2;
+   justify-self: start;
+  align-self: center;
+
+}
+
+.grandMaster{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: 4rem 0 4rem 0;
+}
+
+
+
+.grandMaster img{
+   justify-self: end;
+   margin-right: 3rem;
+}
+
+.grandMaster-info{
+   margin-left: -3em;
+   align-self:center;
+   justify-self: start;
+   width: 70%;
+}
 
 
 

@@ -6,7 +6,10 @@
          "phonenumber": "(208) 542-3700",
          "website": "https://idahoan.com/",
          "order": 1,
-         "imageurl": "images/idahoan_foods.png"
+         "valueNumber": 1,
+         "imageurl": "images/idahoan_foods.png",
+         "membership": "silver",
+         "quote": "Just Add Water, Scoop, And Fry or Bake."
       },
       {
          "name": "Firehouse Subs",
@@ -14,7 +17,9 @@
          "phonenumber": "(208) 525-2665",
          "website": "https://www.firehousesubs.com/",
          "order": 2,
-         "imageurl": "images/fire_house_subs.png"
+         "imageurl": "images/fire_house_subs.png",
+         "membership": "bronze",
+         "quote": "We'll Heat Your Meat."
       },
       {
          "name": "Home Depot",
@@ -22,7 +27,10 @@
          "phonenumber": "(208) 542-2520",
          "website": "https://www.homedepot.com/",
          "order": 3,
-         "imageurl": "images/home_depot.jpg"
+         "valueNumber": 2,
+         "imageurl": "images/home_depot.jpg",
+         "membership": "gold",
+         "quote": "How Doers Get More Done."
       },
       {
          "name": "Snake River Landing",
@@ -30,7 +38,10 @@
          "phonenumber": "(208) 557-5300",
          "website": "https://www.snakeriverlanding.com/",
          "order": 4,
-         "imageurl": "images/snake_river_landing.png"
+         "valueNumber": 3,
+         "imageurl": "images/snake_river_landing.png",
+         "membership": "gold",
+         "quote": "We Can Place YOU in the Heart of the Action."
       },
       {
          "name": "Nelson Group Real Estate",
@@ -38,7 +49,10 @@
          "phonenumber": "(208) 227-5346",
          "website": "https://davenelsongroup.com/",
          "order": 5,
-         "imageurl": "images/nelson_group.png"
+         "valueNumber": 4,
+         "imageurl": "images/nelson_group.png",
+         "membership": "silver",
+         "quote": "An Entire Team Focused on Finding Your Dream Home."
       },
       {
          "name": "Armory Plastics LLC",
@@ -46,7 +60,8 @@
          "phonenumber": "(208) 524-2852",
          "website": "https://www.armoryplastics.com/",
          "order": 6,
-         "imageurl": "images/armory_plastics.png"
+         "imageurl": "images/armory_plastics.png",
+         "membership": "bronze"
       },
       {
          "name": "Teton Radiology Inc. of Idaho Falls",
@@ -54,7 +69,10 @@
          "phonenumber": "(208) 524-7237",
          "website": "https://tetonradiology.com/",
          "order": 7,
-         "imageurl": "images/teton_radiology.png"
+         "valueNumber": 5,
+         "imageurl": "images/teton_radiology.png",
+         "membership": "silver",
+         "quote": "Quality is our Image." 
       },
       {
          "name": "Big-D Construction",
@@ -62,7 +80,10 @@
          "phonenumber": "(208) 362-2125",
          "website": "https://big-d.com/",
          "order": 8,
-         "imageurl": "images/big_d_construction.jpg"
+         "valueNumber": 6,
+         "imageurl": "images/big_d_construction.jpg",
+         "membership": "silver",
+         "quote": "Enough Chitchat. Let's Get to Work!"
       },
       {
          "name": "Idaho Falls Pediatrics",
@@ -70,7 +91,10 @@
          "phonenumber": "(208) 522-4600",
          "website": "https://www.ifpeds.com/",
          "order": 9,
-         "imageurl": "images/id_pediatrics.png"
+         "valueNumber": 7,
+         "imageurl": "images/id_pediatrics.png",
+         "membership": "gold",
+         "quote": "Your Child's Health and Happiness is our Specialty."
       }  
       
    ]
