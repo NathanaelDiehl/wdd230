@@ -81,7 +81,6 @@
 }
 
 .footer-info{
-   /* justify-self: end; */
    padding-right: 40px;
    align-self: center;
 }
@@ -214,7 +213,6 @@ form{
 
 
 .info-section img{
-   /* align-self: center; */
    justify-self: center;
 }
 

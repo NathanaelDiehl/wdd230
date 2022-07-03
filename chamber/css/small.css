@@ -287,6 +287,7 @@ main nav p{
    padding-bottom: 1em;
 }
 
+
 /* -----------------Footer------------------- */
 
 
@@ -586,8 +587,6 @@ text-shadow: 3px 3px 8px black;
 
 .list div section {
 	display: flex;
-	/* align-items: center; */
-   /* min-height: 250px; */
    flex-direction: column;
    background-color: #ececec;
    border: 1px solid #353535;
@@ -616,8 +615,6 @@ text-shadow: 3px 3px 8px black;
 }
 
 .info-section{
-   /* display:grid; */
-   /* grid-template-columns: 1fr 1fr; */
    margin: 4rem 2% 4rem 2%;
 }
 
@@ -639,8 +636,6 @@ text-shadow: 3px 3px 8px black;
 }
 
 .grandMaster{
-   /* display: grid; */
-   /* grid-template-columns: 1fr 1fr; */
    margin: 4rem 2% 4rem 2%;
 }
 
