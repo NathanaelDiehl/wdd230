@@ -283,6 +283,10 @@ main nav p{
    row-gap: 0.2em;
 }
 
+.section{
+   padding-bottom: 1em;
+}
+
 /* -----------------Footer------------------- */
 
 
