@@ -199,15 +199,15 @@ font-size: 1.5rem;
 
 
 
-.weather{
+.weather-homepage{
    text-align: center;
    background-color: #F5EBE0;
    padding: 1rem 0 2rem 0;
    margin-top: -0.6rem;
 }
 
-.today-weather{
-   font-family: 'Merriweather Sans', sans-serif;
+.today-weather-homepage{
+font-family: 'Merriweather Sans', sans-serif;
 padding: 1rem 0 1rem 0;
 background-color: #E3D5CA;
 margin: 0 20% 0 20%;
@@ -288,11 +288,243 @@ footer{
 }
 
 
+/* ------------ reservation.html------------------ */
+.hero-img2{
+   height: 100%;
+ }
+.reservation-title{
+   margin: 4rem 0 3rem 0;
+   background-color: #E3D5CA;
+ 
+ }
+
+.reservation-title{
+   padding: 10px;
+}
+ 
+.form-section{
+   box-shadow: 1px 1px 10px #a0a0a0;
+   margin-bottom: 1rem;
+ }
+
+.contact-form {
+   color:#09555c;
+   background-color: #F5EBE0;
+   padding: 25px; 
+}
+
+.contact-form button {
+   margin-top: 25px;
+}
+
+.contact-form p, label {
+   font-weight: bold;
+   font-family: 'Merriweather', serif; 
+}
 
 
+.form-inquiry li, .preferred-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-inquiry > li > label, .form-inquiry li p {
+  flex: 1 0 20rem;
+  max-width: 220px;
+  margin: 10px 10px 10px 0;
+}
+
+.form-inquiry {
+   flex: 1 0 220px;
+   padding: 0 5% 0 10%;
+} 
+
+.form-inquiry > li > label + *{
+  flex: 1 0 220px;
+}
+
+.form-inquiry li button {
+   margin-left: auto;
+   padding: .5rem 1.5rem;
+   color: white;
+   background-color: #0B7983;
+   border: 1px solid #0B7983;
+   border-radius: 5px;
+ }
+ .form-inquiry li button:hover {
+   cursor: pointer;
+
+ }
+
+ .preferred-contact li, .form-radio li {
+   margin: 5px;
+   flex: 1 100px;
+ }
+
+ .preferred-contact, .form-radio li {
+   justify-content: space-between;
+ }
+
+ .form-radio li {
+    width: 50px;
+    display: inline;
+ }
+
+ .form-radio label {
+   padding: 0.5rem;
+ }
+
+.preferred-contact label{
+   padding: 0.5rem;
+}
+
+ 
+.form-radio > li > input[type=radio], .preferred-contact > li > input[type=checkbox]{
+   transform: scale(1.5);  
+   cursor: pointer;
+}
+
+.thank-you-main-content{
+   padding: 3rem 2% 3rem 2%;
+   
+   }
+   
+   .thank-you-main-content button{
+      border:2px solid #0B7983;
+      background-color: #0B7983;
+      color: white;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      
+   }
+   
+   .thank-you-main-content button:hover{
+      background-color: #ececec;
+      color: #0B7983;
+      cursor: pointer;
+      
+   }
+   
+
+/* ------------ temples.html------------------ */
+
+.title{
+   margin: 4rem 0 2rem 0;
+   text-align: center;
+}
+
+.temple-card{
+   margin: 1rem 0;
+   padding: 1rem 5% 2rem 5%;
+   background-color: #F5EBE0;
+   box-shadow: 1px 1px 10px #a0a0a0;
+}
+
+.like-button{
+   height: 2rem;
+
+}
 
 
+.card-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
+.card-header h1{
+   font-size: 1.5rem;
+}
+
+.temple-card img{
+   max-width: 100%;
+   padding: 0;
+   border-radius: 5px;
+}
+
+.temple-card ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+.temple-card ul li{
+   padding: .25rem 0;
+   font-family: 'Merriweather Sans', sans-serif;
+   
+}
+
+.temple-card a{
+font-size: 1.5rem;
+font-family: 'Merriweather', serif;
+color: #0B7983; 
+}
+
+.temple-card a:hover{
+   cursor: pointer;
+   text-shadow:1px 1px 2px #0B7983;
+}
+
+.details{
+   background-color: #E3D5CA;
+   margin: 1rem -5% -2rem -5%;
+   padding: .25rem 5% 2rem 5%;
+}
+
+.temple-card-weather{
+   display: flex;
+   align-items: center;
+   font-family: 'Merriweather Sans', sans-serif;
+   
+}
+
+.temple-card-weather img{
+   width: 80px;
+   padding-right: 1rem;
+
+
+}
+
+/* ------------ service.html------------------ */
+
+.hero-img3 h1{
+   margin: 140px 0;
+   /* color: white;
+   text-shadow: 1px 1px 10px black; */
+}
+
+.hero-img3{
+   height: 300px;
+   background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/services-hero.jpg");
+}
+
+.button-service{
+   margin: 1rem 0;
+}
+
+.button-service a img:hover{
+   box-shadow: 0px 0px 20px #1b1b1b;
+}
+
+.button-service a img{
+   max-width: 100%;
+   border-radius: 5px;
+}
+
+.button-title{
+   position: absolute;
+   padding-left: 5px;
+   color: white;
+   font-size: 1.15rem;
+   text-shadow: 1px 1px 8px black;
+}
+
+.amenities, .specialized-services{
+   padding: 1rem;
+   margin: 1rem 0;
+   background-color: #F5EBE0;
+   box-shadow: 1px 1px 10px #a0a0a0;
+}
 
 
 

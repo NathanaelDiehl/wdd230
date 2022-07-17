@@ -1,6 +1,7 @@
 {
    "temples": [
       {
+         "id": 1,
          "name": "Idaho Falls Idaho Temple",
          "address": "1000 Memorial Dr Idaho Falls, ID 83402-3410 United States",
          "latitude": 43.50013306212879, 
@@ -14,26 +15,24 @@
          "Distribution center nearby"
          ],
          "imageurl": "images/Idaho-Falls-Temple.jpg",
-         "ordinace": [
-            "Ordinance:",
+         "ordinances": [
             "Tuesday-Friday 6:30AM-7:30PM",
             "Saturday 6:30AM-4:30PM"
          ],
-         "session": [
-            "Session:",
+         "sessions": [
             "Tuesday-Friday 6:00AM-8:00PM",
             "Saturday 6:00AM-4:00PM"
          ],
-         "closure": [
-            {"2022": [
+         "closures": {
+            "2022": [
                "Tuesday, 28 June 2022 - Monday, 11 July 2022",
                "Saturday, 1 October 2022",
                "Wednesday, 23 November 2022 (Limited Operations)",
                "Thursday, 24 November 2022",
                "Saturday, 24 December 2022",
                "Saturday, 31 December 2022"
-            ]},
-            {"2023": [
+            ],
+            "2023": [
                "Tuesday, 24 January 2023 - Monday, 6 February 2023",
                "Saturday, 1 April 2023",
                "Tuesday, 27 June 2023 - Monday, 10 July 2023",
@@ -42,8 +41,8 @@
                "Thursday, 23 November 2023",
                "Saturday, 23 December 2023",
                "Saturday, 30 December 2023"
-            ]}
-         ],
+            ]
+         },
          "history": [
             "03 March 1937 - Announced",
             "19 December 1939 - Groundbreaking",
@@ -53,6 +52,7 @@
       },
 
       {
+         "id": 2,
          "name": "Pocatello Idaho Temple",
          "address": "3100 Butte St Pocatello, ID 83201 United States",
          "latitude": 42.91518312345363, 
@@ -66,26 +66,24 @@
          "No distribution center nearby"
          ],
          "imageurl": "images/pocatello-idaho-temple.jpg",
-         "ordinace": [
-            "Ordinance:",
+         "ordinances": [
             "Tuesday-Friday 6:30AM-8:30PM",
             "Saturday 6:30AM-5:00PM"
          ],
-         "session": [
-            "Session:",
+         "sessions": [
             "Tuesday-Friday 6:30AM-7:30PM",
             "Saturday 6:30AM-4:30PM"
          ],
-         "closure": [
-            {"2022": [
+         "closures": {
+            "2022": [
                "Saturday, 1 October 2022",
                "Monday, 31 October 2022 - Monday, 14 November 2022",
                "Wednesday, 23 November 2022 (Limited Operations)",
                "Thursday, 24 November 2022",
                "Saturday, 24 December 2022",
                "Saturday, 31 December 2022 (Limited Operations)"
-            ]},
-            {"2023": [
+            ],
+            "2023": [
                "Saturday, 1 April 2023",
                "Monday, 15 May 2023 - Monday, 29 May 2023",
                "Tuesday, 4 July 2023",
@@ -93,8 +91,8 @@
                "Monday, 30 October 2023 - Monday, 13 November 2023",
                "Wednesday, 22 November 2023 (Limited Operations)",
                "Thursday, 23 November 2023"
-            ]}
-         ],
+            ]
+         },
          "history": [
             "2 April 2017 - Announced",
             "16 March 2019 - Groundbreaking",
@@ -103,6 +101,7 @@
       },
 
       {
+         "id": 3,
          "name": "Mount Timpanogos Utah Temple",
          "address": "742 N 900 E American Fork, UT 84003-9124 United States",
          "latitude": 40.3930014920076, 
@@ -116,31 +115,29 @@
          "Distribution center nearby"
          ],
          "imageurl": "images/mount-timpanogos-temple.jpg",
-         "ordinace": [
-            "Ordinance:",
+         "ordinances": [
             "Tuesday-Saturday 5:30AM-8:30PM"
          ],
-         "session": [
-            "Session:",
+         "sessions": [
             "Tuesday-Saturday 5:30AM-8:30PM"
          ],
-         "closure": [
-            {"2022": [
+         "closures": {
+            "2022": [
                "Saturday, 1 October 2022",
                "Monday, 7 November 2022 - Tuesday, 22 November 2022",
                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                "Saturday, 24 December 2022",
                "Saturday, 31 December 2022"
-            ]},
-            {"2023": [
+            ],
+            "2023": [
                "Saturday, 1 April 2023",
                "Monday, 8 May 2023 - Monday, 22 May 2023",
                "Tuesday, 4 July 2023",
                "Saturday, 7 October 2023",
                "Monday, 6 November 2023 - Tuesday, 21 November 2023",
                "Wednesday, 22 November 2023 - Thursday, 23 November 2023"
-            ]}
-         ],
+            ]
+         },
          "history": [
             "3 October 1992 - Announced",
             "9 October 1993 - Groundbreaking",
@@ -149,6 +146,7 @@
       },
 
       {
+         "id": 4,
          "name": "Philadelphia Pennsylvania Temple",
          "address": "1739 Vine St Philadelphia, PA 19103 United States",
          "latitude": 39.95913206552318, 
@@ -162,29 +160,27 @@
          "Distribution center nearby"
          ],
          "imageurl": "images/philadelphia-pennsylvania-temple.jpg",
-         "ordinace": [
-            "Ordinance:",
+         "ordinances": [
             "wednesday 9:30AM, 11:00AM, 6:00PM, 7:30PM",
             "Thursday 6:00PM, 7:30PM",
             "Friday 9:30AM, 11:00AM, 12:30PM, 6:00PM, 7:30PM",
             "Friday 8:00AM, 9:30AM, 11:00AM, 12:30PM, 2:00PM"
          ],
-         "session": [
-            "Session:",
+         "sessions": [
             "wednesday 10:00AM, 11:15AM, 6:30PM, 7:45PM",
             "Thursday 6:30PM, 7:45PM",
             "Friday 10:00AM, 11:15AM, 12:30PM, 6:30PM, 7:45PM",
             "Saturday 7:00AM - 1:30PM"
          ],
-         "closure": [
-            {"2022": [
+         "closures": {
+            "2022": [
                "Monday, 19 September 2022 - Monday, 10 October 2022",
                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                "Saturday, 24 December 2022 - Sunday, 25 December 2022",
                "Saturday, 31 December 2022"
-            ]}
+            ]
             
-         ],
+         },
          "history": [
             "4 October 2008 - Announced",
             "17 September 2011 - Groundbreaking",

@@ -16,6 +16,8 @@ listbutton.addEventListener("click", () => {
 });
 
 
+// -------------------------------------------------
+
 const requestURL = 'json/data.json';
 const cards = document.querySelector('.company-directory');
 

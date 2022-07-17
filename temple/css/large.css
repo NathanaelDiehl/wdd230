@@ -13,11 +13,7 @@ nav ul{
    font-size: 1.5rem;
 }
 
-
-
-
 /* ---------------Main--------------------- */
-
 
 .who-content{
    grid-template-columns: 400px 1fr;
@@ -41,8 +37,6 @@ margin-top: 4rem;
 }
 
 
-
-
 .who-content h2{
 justify-self: center;
 font-size: 2.5rem;
@@ -52,33 +46,23 @@ align-self: start;
       }
 
 
-
-
-
-
-
-
-
 .hero-quote p{
    font-size: 1.5rem;
   
 }
-
-
-
 
 .featured{
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
 
-.weather{
+.weather-homepage{
    padding: 1rem 0 1rem 0;
 }
 
 
 
-.today-weather{
+.today-weather-homepage{
    
 margin: auto;
 width: 80%;
@@ -100,12 +84,50 @@ height: 80%;
 }
 
 
+/* ------------ reservation.html------------------ */
 
 
+.reserve-section{
+   max-width: 900px;
+   margin: 3rem auto;
+ 
+ }
 
+ .contact-form{
+   width: 850px;
+ }
+
+
+/* ------------ temples.html------------------ */
+
+
+ 
+ .temple-card{
+max-width: 1280px;
+ }
+
+ 
+/* ------------ service.html------------------ */
+
+
+ 
+ .external-links{
+   margin: 0 auto;
+   width: 96%;
+   max-width: 1200px;
+ }
+ 
+ 
+ 
+ .amenities, .specialized-services{
+   margin: 1rem auto;
+   width: 86%;
+   max-width: 1000px;
+ }
+ 
+ 
 }
-
-
+ 
 
 
 

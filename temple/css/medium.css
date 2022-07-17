@@ -80,20 +80,20 @@ font-size: 2rem;
 
 
 
-.weather{
+.weather-homepage{
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 1rem;
 }
 
-.weather h2{
+.weather-homepage h2{
   grid-column: 2;
   justify-self: left;
   align-self: center;
   
 }
 
-.today-weather{
+.today-weather-homepage{
 
 grid-column: 1;
 grid-row: 1;
@@ -142,6 +142,104 @@ grid-row: 1;
    grid-template-columns: 1fr 1fr;
    align-items: center;
 }
+
+
+/* ------------ reservation.html------------------ */
+.hero-img2{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/reservation-background.jpg");
+  height: 100%;
+}
+
+.reserve-section{
+  max-width: 662px;
+  margin: 3rem 5% 3rem 5%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px #a0a0a0;
+
+}
+
+.form-section{
+  box-shadow: 1px 1px 10px #a0a0a0;
+}
+
+.contact-form{
+  border-radius: 8px;
+}
+
+
+.contact-form button {
+  margin-top: 25px;
+}
+
+.contact-form p, label {
+  font-weight: bold;
+}
+
+.form-inquiry {
+  flex: 1 0 20rem;
+} 
+
+.form-inquiry > li > label + *{
+ flex: 1 0 20rem;
+}
+
+.form-radio li {
+   width: 50px;
+   display: inline;
+}
+
+
+.thank-you-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* ------------ temples.html------------------ */
+
+
+.temple-card{
+  /* margin: 1rem 0;
+  padding: 1rem 5% 2rem 5%;
+  background-color: #F5EBE0;
+  box-shadow: 1px 1px 10px #a0a0a0; */
+  margin: 1rem 8%;
+  padding: 1rem 2% 2rem 2%;
+}
+
+
+.details{
+
+  margin: 1rem 0;
+}
+
+/* ------------ service.html------------------ */
+
+.hero-img3 h1{
+  margin: 240px 0;
+}
+
+.hero-img3{
+  height: 500px;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/services-hero.jpg");
+}
+
+.external-links{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+
+
+
+.amenities, .specialized-services{
+  margin: 1rem 8%;
+  border-radius: 10px;
+}
+
+
 
 
 

@@ -7,10 +7,10 @@
    <link rel="shortcut icon" href="images/favicon.ico" />
    <meta
       name="description"
-      content="Temple Inn and Suites has Got you covered when your trying to find housing to go to a Temple of The Church of Jesus Christ of Latter Day Saints."
+      content="Reserve rooms and accomadations for you and your family as you attend the temple."
     />
    
-   <title>Temple Inn and Suites</title>
+   <title>reservation</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Merriweather&family=Merriweather+Sans&display=swap" rel="stylesheet">
@@ -46,7 +46,132 @@
    </header>
 
    <main class="reservation-content">
+      <div class="hero-image hero-img2">
    
+      <section class="reserve-section reservation-title">
+         <h2>Book Your Reservation</h2>
+         <p>Rooms and suites are available on a first-come first-serve basis (with the exception of Temple workers
+             and their families, to whom we give priority). It is recommended to make reservations at least 6 months
+             in advance of your special event. Please fill out the form below and include details about your planned
+             visit that may help a representative best know how to serve you. We will contact you within 3 days of
+             your inquiry with information on what is available, as well as costs.
+         </p>
+     </section>
+      <section class="reserve-section form-section">
+         <form class="contact-form" action="thankyou.html">
+             <h3>Reservation Inquiry</h3>
+             <ul class="form-inquiry">
+                 <li>
+                     <label for="name">Full Name*</label>
+                     <input type="text" id="name" minlength="2" maxlength="50" size="20" required
+                         pattern="[A-Z][A-Za-z' -]+">
+                 </li>
+                 <li>
+                     <label for="phone">Phone*</label>
+                     <input type="tel" id="phone" name="tel" required minlength="10">
+                 </li>
+                 <li>
+                     <label for="email">Email</label>
+                     <input type="email" id="email" name="email" placeholder="address@domain.com">
+                 </li>
+                 <li>
+                     <label for="area">Temple:</label>
+                     <select id="area">
+                         <option selected disabled>Select Temple...</option>
+                         <option value="idahofalls">Idaho Falls Idaho Temple</option>
+                         <option value="pocatello">Pocatello Idaho Temple</option>
+                         <option value="timpanogos">Mount Timpanogos Utah Temple</option>
+                         <option value="philadelphia">Philadelphia Pennsylvania Temple</option>
+                     </select>
+                 </li>
+                 <li>
+                     <label for="message">Message</label>
+                     <textarea name="message" id="message" rows="6" placeholder="Use this field to enter details about your planned stay, such as special accommodations and/or dietary needs, number of guests and rooms desired."></textarea>
+                 </li>
+                 <li>
+                     <p>Dates of Interest (Range)</p>
+                 <li>
+                     <label for="startDate">From*</label>
+                     <input type="date" id="startDate" name="startDate" required>
+                 </li>
+                 <li>
+                     <label for="endDate">To*</label>
+                     <input type="date" id="endDate" name="endDate" max="2020-12-31" required>
+                 </li>
+                 <li>
+                     <p>Rooms or Suite?</p>
+                     <ul class="form-radio">
+                         <li>
+                             <label for="1 room">1 Room</label>
+                             <input type="radio" id="room" name="choice" value="room" checked>
+                         </li>
+                         <li>
+                           <label for="2 room">2 Room</label>
+                           <input type="radio" id="room" name="choice" value="room" checked>
+                        </li>
+                        <li>
+                           <label for="3 room">3 Room</label>
+                           <input type="radio" id="room" name="choice" value="room" checked>
+                        </li>
+                         <li>
+                             <label for="suite">Suite</label>
+                             <input type="radio" id="suite" name="choice" value="suite">
+                         </li>
+                     </ul>
+                 </li>
+
+                 <li>
+                     <p>Number of expected guests (estimate)</p>
+                     <ul class="form-radio">
+                         <li>
+                             <label for="option1">1 - 2</label>
+                             <input type="radio" id="option1" name="guests" value="1 - 2" checked>
+                         </li>
+                         <li>
+                             <label for="option2">3 - 6</label>
+                             <input type="radio" id="option2" name="guests" value="3 - 6">
+                         </li>
+                         <li>
+                             <label for="option3">7 - 12</label>
+                             <input type="radio" id="option3" name="guests" value="7 - 12">
+                         </li>
+                         <li>
+                             <label for="option4">12+</label>
+                             <input type="radio" id="option4" name="guests" value="12+">
+                         </li>
+                     </ul>
+                 </li>
+
+                 <li>
+                     <p>Preferred method of contact? (Please check all that apply)</p>
+                     <ul class="preferred-contact">
+                         <li>
+                             <input type="checkbox" id="email-pref">
+                             <label for="email-pref">Email</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="phone-pref">
+                             <label for="phone-pref">Phone</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="text-pref">
+                             <label for="text-pref">Text</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="other-pref">
+                             <label for="other-pref">Other</label>
+                         </li>
+                     </ul>
+                 </li>
+                 <li>
+                     <button type="submit">Reserve My Stay</button>
+                 </li>
+             </ul>
+         </form>
+     </section>
+
+
+   </div>
    </main>
 
    <footer>
