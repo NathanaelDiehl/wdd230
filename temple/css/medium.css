@@ -134,15 +134,19 @@ grid-row: 1;
 
 
 .footer-info ul{
-   /* list-style-type: none;
-   text-align: center;
-   max-width: 10% 10%; */
-
+   margin: 0;
+  max-width: 800px;
+  padding-left: 60px;
    display: grid;
    grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
    align-items: center;
 }
 
+
+.social-links ul{
+  padding-top: 0rem;
+}
 
 /* ------------ reservation.html------------------ */
 .hero-img2{
@@ -217,7 +221,9 @@ grid-row: 1;
 /* ------------ service.html------------------ */
 
 .hero-img3 h1{
-  margin: 240px 0;
+  margin: 180px 0;
+  padding: 5rem;
+  border-radius: 10rem;
 }
 
 .hero-img3{
@@ -238,6 +244,43 @@ grid-row: 1;
   margin: 1rem 8%;
   border-radius: 10px;
 }
+
+/* -----------------reception.html / missionary.html------------- */
+
+.subpage-title{
+  
+  padding: 5rem;
+  border-radius: 10rem;
+}
+
+.missionary-title{
+  padding:0;
+}
+
+
+.subpage-details{
+
+  margin: 1rem 8%;
+  border-radius: 10px;
+ 
+}
+
+.contact-us{
+
+  max-width: 70%;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+
+
+/* --------------contact.html------------- */
+
+.contact-section{
+  margin: 5rem auto;
+}
+
+
 
 
 

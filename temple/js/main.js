@@ -35,6 +35,7 @@ const getWeatherForecast = async (latitude, longitude) => {
    const url =  `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=minutely&appid=f912de03ce11423891bab669a7ee65a2`
    const response =  await fetch(url)
    const data = await response.json();
+   console.log(data)
    return data;
 }
 
@@ -45,14 +46,17 @@ const renderFeaturedTemple = async () => {
 
    const h3 = document.createElement('h3');
    const image = document.createElement('img');
+   const p = document.createElement('p');
 
    h3.textContent = `${featured.name}`;
    image.setAttribute('src', featured.imageurl);
    image.setAttribute('alt', `logo for ${featured.name}`);
    image.setAttribute('loading', 'lazy');
+   p.textContent = `${featured.facts}`;
 
    document.getElementById('featured').appendChild(h3);
    document.getElementById('featured').appendChild(image);
+   document.getElementById('featured').appendChild(p);
   
 
 }
@@ -142,7 +146,8 @@ const renderTemple = ({
    closures, 
    history,
    latitude,
-   longitude
+   longitude,
+   facts
 }) => {
    const templeCard = document.createElement('div');
    templeCard.classList.add('temple-card');
@@ -198,6 +203,10 @@ const renderTemple = ({
       <div class="history">
          <h4>Temple History</h4>
          ${renderList(history)}
+      </div>
+      <div class="temple-details">
+         <h4>Temple Fun Facts</h4>
+         ${facts}
       </div>
    `
    
