@@ -107,10 +107,7 @@ const renderWeatherForecast = async () => {
    })
 
    // display alert
-   const alert = document.createElement('div');
-   const closeButton = document.createElement('button');
-   const alertMessage = document.createElement('div');
-
+   
 
    function isThereAlerts(str){
       
@@ -119,15 +116,20 @@ const renderWeatherForecast = async () => {
 
 
    // TODO - add css for 'weather-alert' (display: flex, etc...)
-   // if (typeof data.alerts !== 'undefined' || data.alerts !== null) {
+   if (typeof data.alerts !== 'undefined') {
+
+      const alert = document.createElement('div');
+      const closeButton = document.createElement('button');
+      const alertMessage = document.createElement('div');
+      console.log(data.alerts)
       alert.classList.add('weather-alert');
-      // alertMessage.innerHTML = data.alerts.description;
+      alertMessage.innerHTML = data.alerts[0].description;
       closeButton.innerHTML = 'x';
       closeButton.addEventListener('click', () => alert.remove());
       alert.append(alertMessage);
       alert.append(closeButton);
       document.body.prepend(alert);
-   // }
+   }
   
 }
 

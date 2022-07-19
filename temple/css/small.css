@@ -11,13 +11,18 @@ body{
 .weather-alert{
    font-family: 'Merriweather', serif; 
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    column-gap: 1rem;
+   row-gap: .5rem;
    padding: 0.5rem;
    background-color: #0B7983;
    color: white;
    box-shadow: 1px 1px 10px #a0a0a0;
    text-shadow: 1px 1px 10px black;
+   padding: 1rem 20%;
+   position: absolute;
+   z-index: 4;
 }
 
 .weather-alert button{
@@ -26,6 +31,7 @@ body{
    color: white;
    border: 1px solid white;
    text-shadow: 1px 1px 10px black;
+   max-height: 2rem;
 }
 
 .header-content{
