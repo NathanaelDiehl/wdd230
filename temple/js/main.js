@@ -32,7 +32,7 @@ const getFeaturedTemple = async () => {
 }
 
 const getWeatherForecast = async (latitude, longitude) => {
-   const url =  `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=minutely&appid=f912de03ce11423891bab669a7ee65a2`
+   const url =  `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=minutely&appid=ac65c8f913bf91d2407f54d4f7913601`
    const response =  await fetch(url)
    const data = await response.json();
    console.log(data)
@@ -111,14 +111,24 @@ const renderWeatherForecast = async () => {
    const closeButton = document.createElement('button');
    const alertMessage = document.createElement('div');
 
+
+   function isThereAlerts(str){
+      
+   }
+
+
+
    // TODO - add css for 'weather-alert' (display: flex, etc...)
-   alert.classList.add('weather-alert');
-   alertMessage.innerHTML = data.current.weather[0]?.description
-   closeButton.innerHTML = 'x'
-   closeButton.addEventListener('click', () => alert.remove());
-   alert.append(alertMessage);
-   alert.append(closeButton);
-   document.body.prepend(alert);
+   // if (typeof data.alerts !== 'undefined' || data.alerts !== null) {
+      alert.classList.add('weather-alert');
+      // alertMessage.innerHTML = data.alerts.description;
+      closeButton.innerHTML = 'x';
+      closeButton.addEventListener('click', () => alert.remove());
+      alert.append(alertMessage);
+      alert.append(closeButton);
+      document.body.prepend(alert);
+   // }
+  
 }
 
 

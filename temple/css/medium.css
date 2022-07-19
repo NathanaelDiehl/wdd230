@@ -2,49 +2,42 @@
 
 
 
-
-
    /* ----------Navigation------------------- */
 
-   .navigation {
-      display: grid;
-      position: relative;
-      border: 0;
-      margin-left: 5%; 
+.navigation {
+  display: grid;
+  position: relative;
+  border: 0;
+  margin-left: 5%; 
+}
 
-   }
-  
-    .navigation .nav-item {
-      padding: 0.5rem;
-      min-width: 0px; 
-    }
+.navigation .nav-item {
+  padding: 0.5rem;
+  min-width: 0px; 
+}
 
-    .navigation .nav-item:hover {
-      padding: 0.5rem;
-      border-radius: 5px;
-    }
+.navigation .nav-item:hover {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
 
-    #close-button {
-      display: none;
-    }
-    .hamburger-button {
-      display: none;
-    }
-  
-    nav ul {
-      display: flex;
-      column-gap: 0.15rem;
-      overflow: hidden;
-      text-align: center;
-      background-color: #D5BDAF;
-      font-size: 1.1rem;
-    }
+#close-button {
+  display: none;
+}
+.hamburger-button {
+  display: none;
+}
 
-
+nav ul {
+  display: flex;
+  column-gap: 0.15rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: #D5BDAF;
+  font-size: 1.1rem;
+}
 
 /* ---------------Main--------------------- */
-
-
 
 .who-content{
 display: grid;
@@ -73,12 +66,7 @@ font-size: 2rem;
 
 .hero-quote p{
   font-size: 1rem;
- 
 }
-
-
-
-
 
 .weather-homepage{
   display: grid;
@@ -90,18 +78,14 @@ font-size: 2rem;
   grid-column: 2;
   justify-self: left;
   align-self: center;
-  
 }
 
 .today-weather-homepage{
-
 grid-column: 1;
 grid-row: 1;
-
 }
 
 .three-day-weather{
-
   grid-column: 1/-1;
   grid-row: 2;
   display: grid;
@@ -109,14 +93,11 @@ grid-row: 1;
   margin: 0 20% 0 20%; 
 }
 
-
 .three-day-weather h3 {
   grid-column: 1/-1;
 }
 
-
 /* -----------------Footer------------------- */
-
 
 .footer-content{
   display: grid;
@@ -132,7 +113,6 @@ grid-row: 1;
 
 }
 
-
 .footer-info ul{
    margin: 0;
   max-width: 800px;
@@ -142,7 +122,6 @@ grid-row: 1;
    grid-gap: 1rem;
    align-items: center;
 }
-
 
 .social-links ul{
   padding-top: 0rem;
@@ -159,7 +138,6 @@ grid-row: 1;
   margin: 3rem 5% 3rem 5%;
   border-radius: 8px;
   box-shadow: 1px 1px 10px #a0a0a0;
-
 }
 
 .form-section{
@@ -169,7 +147,6 @@ grid-row: 1;
 .contact-form{
   border-radius: 8px;
 }
-
 
 .contact-form button {
   margin-top: 25px;
@@ -192,29 +169,21 @@ grid-row: 1;
    display: inline;
 }
 
-
 .thank-you-footer{
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-
 /* ------------ temples.html------------------ */
 
-
 .temple-card{
-  /* margin: 1rem 0;
-  padding: 1rem 5% 2rem 5%;
-  background-color: #F5EBE0;
-  box-shadow: 1px 1px 10px #a0a0a0; */
   margin: 1rem 8%;
   padding: 1rem 2% 2rem 2%;
 }
 
 
 .details{
-
   margin: 1rem 0;
 }
 
@@ -238,8 +207,6 @@ grid-row: 1;
   column-gap: 1rem;
 }
 
-
-
 .amenities, .specialized-services{
   margin: 1rem 8%;
   border-radius: 10px;
@@ -248,7 +215,6 @@ grid-row: 1;
 /* -----------------reception.html / missionary.html------------- */
 
 .subpage-title{
-  
   padding: 5rem;
   border-radius: 10rem;
 }
@@ -257,37 +223,22 @@ grid-row: 1;
   padding:0;
 }
 
-
 .subpage-details{
-
   margin: 1rem 8%;
   border-radius: 10px;
- 
 }
 
 .contact-us{
-
   max-width: 70%;
   margin: 1rem auto;
   border-radius: 10px;
 }
-
-
 
 /* --------------contact.html------------- */
 
 .contact-section{
   margin: 5rem auto;
 }
-
-
-
-
-
-
-
-
-
 
 
 }
