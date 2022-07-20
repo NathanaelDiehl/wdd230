@@ -108,14 +108,6 @@ const renderWeatherForecast = async () => {
 
    // display alert
    
-
-   function isThereAlerts(str){
-      
-   }
-
-
-
-   // TODO - add css for 'weather-alert' (display: flex, etc...)
    if (typeof data.alerts !== 'undefined') {
 
       const alert = document.createElement('div');
